@@ -5,3 +5,33 @@
 
 body {
   font-family: 'Varela Round', sans-serif; }
+  body a {
+    color: #fff;
+    text-decoration: none; }
+  body ul {
+    list-style: none; }
+  body .container {
+    width: 90%;
+    margin: 0 auto; }
+
+header .top-bar {
+  display: flex;
+  justify-content: space-between; }
+  header .top-bar img {
+    padding-left: 30px; }
+  header .top-bar .contacts {
+    display: flex; }
+    header .top-bar .contacts .contacts-email a {
+      background-color: #D04040;
+      padding: 20px 40px;
+      height: 100%; }
+      header .top-bar .contacts .contacts-email a.flex {
+        display: flex;
+        align-items: center; }
+    header .top-bar .contacts .contacts-phone a {
+      background-color: #4BB7A7;
+      padding: 20px 40px;
+      height: 100%; }
+      header .top-bar .contacts .contacts-phone a.flex {
+        display: flex;
+        align-items: center; }
