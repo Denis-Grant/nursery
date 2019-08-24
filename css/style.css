@@ -21,6 +21,9 @@ header .top-bar {
     padding-left: 30px; }
   header .top-bar .contacts {
     display: flex; }
+    header .top-bar .contacts i::after {
+      content: '';
+      padding-right: 10px; }
     header .top-bar .contacts .contacts-email a {
       background-color: #D04040;
       padding: 20px 40px;
@@ -35,3 +38,16 @@ header .top-bar {
       header .top-bar .contacts .contacts-phone a.flex {
         display: flex;
         align-items: center; }
+
+header nav {
+  background-color: #4E4E4E; }
+  header nav .nav-bar {
+    display: flex;
+    font-size: 1.0625;
+    line-height: 20px; }
+    header nav .nav-bar a {
+      display: block;
+      padding: 20px 25px; }
+      header nav .nav-bar a:hover {
+        background-color: #D04040;
+        transition: all .1s ease-in; }
