@@ -1,4 +1,6 @@
+@import 'variables';
 * {
+    // border: 1px dotted lightblue;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,4 +9,57 @@
 body {
     font-family: 'Varela Round', sans-serif;
 
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    ul {
+        list-style: none;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+      
+} // body
+
+header {
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        img {
+            padding-left:30px;
+        }
+        .contacts {
+            display: flex;
+            // align-items: center;
+            .contacts-email {
+                // display: flex;
+                // align-items: center;
+               
+                a {
+                    background-color: $red;
+                    padding: 20px 40px;
+                    height: 100%;
+                    &.flex {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+            }
+            .contacts-phone {
+                a {
+                    background-color: $green;
+                    padding: 20px 40px;
+                    height: 100%;
+                    &.flex {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+            }
+        }
+    } // top-bar
 }
